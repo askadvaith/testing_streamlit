@@ -6,7 +6,9 @@ def generate_response(user_input):
     # Example: response = openai.Completion.create(model="text-davinci-002", prompt=user_input, ...)
     # generated_text = response['choices'][0]['text']
     # return generated_text
-    pass
+
+    # For illustration purposes, a dummy default response
+    return "I'm an AI, ask me anything!"
 
 # Streamlit app layout with improved styling
 def main():
