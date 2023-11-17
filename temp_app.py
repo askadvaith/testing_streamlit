@@ -17,23 +17,24 @@ def main():
         layout="wide",
     )
 
-    # Set dark theme with shades of purple
+    # Set a more vivid purple theme
+    vivid_purple = "#7E3AC1"
     st.markdown(
-        """
+        f"""
         <style>
-            body {
-                background-color: #241b4f;
+            body {{
+                background-color: {vivid_purple};
                 color: #ffffff;
-            }
-            .sidebar .sidebar-content {
-                background-color: #1a143a;
-            }
-            .css-1s0lmgv {
+            }}
+            .sidebar .sidebar-content {{
+                background-color: {vivid_purple};
+            }}
+            .css-1s0lmgv {{
                 color: #c9c4d1;
-            }
-            .css-17eq0hr {
+            }}
+            .css-17eq0hr {{
                 color: #ffffff;
-            }
+            }}
         </style>
         """,
         unsafe_allow_html=True,
@@ -61,4 +62,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
